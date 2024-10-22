@@ -10,7 +10,7 @@ def mul(a,b):
     return a * b
 
 def div(a,b):
-    return a / b-a
+    return a / b
 
 def mod(a,b):
     return a % b
@@ -85,5 +85,3 @@ list = Listbox(win,width=20,height=3)
 list.place(x=150,y=230)
 
 win.mainloop()
-
-print("down")
